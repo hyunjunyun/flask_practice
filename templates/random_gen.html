@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>random normal - {{mean}}, {{var}}</title>
+  </head>
+  <body>
+    <h2>Title</h2>
+    <img
+      src="{{ url_for('fig', mean=mean, var=var) }}"
+      alt="Image Placeholder"
+      width="{{width}},"
+      height="{{height}}"
+    />
+  </body>
+</html>
